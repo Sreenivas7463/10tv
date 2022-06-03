@@ -2,7 +2,7 @@
   "name": "nodejs-news",
   "version": "1.0.0",
   "description": "This was created as part of YouTube Video. Links below",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
