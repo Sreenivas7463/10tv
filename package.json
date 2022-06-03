@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "This was created as part of YouTube Video. Links below",
   "main": "app.js",
+  "engines": {
+    "node" : "14.x"
+  },
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sreenivas7463/10tv.git"
   },
   "author": "Sreenivas",
   "license": "ISC",
