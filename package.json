@@ -2,12 +2,12 @@
   "name": "nodejs-news",
   "version": "1.0.0",
   "description": "This was created as part of YouTube Video. Links below",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node" : "14.x"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
