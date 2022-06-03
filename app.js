@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 
 const app = express()
-const port = process.env.PORT || 5000
+
 
 // Static Files
 app.use(express.static('public'))
@@ -26,4 +26,5 @@ app.use('/slug', newsRouter)
 
 
 // Listen on port 5000
-app.listen(port, () => console.log(`Listening on port ${port}`))
+const PORT = process.env.PORT || 5000
+app.listen(PORT, () => console.log(`Listening on port ${port}`))
